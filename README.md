@@ -2,7 +2,7 @@
 
 Live multi-class YOLOv8 object detection model implementation to detect grocery items using the [Freiburg Groceries Dataset](http://aisdatasets.informatik.uni-freiburg.de/freiburg_groceries_dataset/). The goal of this project is to help users identify market items visually through a smart interface.
 
-![YOLO Detection](https://drive.google.com/file/d/195JFyTQ19XukYvHLrFkgPz5q2LmWvyFZ/view?usp=sharing)
+![YOLO Detection](assets/multiclass_detection.png)
 ---
 
 ## 📁 Dataset
