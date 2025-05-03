@@ -60,20 +60,6 @@ Training command:
 - Best performance on categories coffee, tea, and water.
 - Worst performance on category milk.
 
-Validating runs/detect/train/weights/best.pt...
-Ultralytics YOLOv8.0.20 🚀 Python-3.10.12 torch-2.0.1+cu118 CUDA:0 (Tesla T4, 15102MiB)
-Model summary (fused): 218 layers, 25843813 parameters, 0 gradients, 78.7 GFLOPs
-                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% 4/4 [00:04<00:00,  1.22s/it]
-                   all        126        326      0.816      0.823      0.872      0.671
-         Kaffee-Coffee        126         79      0.947      0.909       0.94      0.721
-            Mehl-flour        126         18       0.74      0.791      0.834      0.683
-            Milch-Milk        126         36       0.69      0.694      0.765      0.545
-                Person        126         39      0.793      0.787       0.83      0.625
-               Tee-Tea        126         63      0.847      0.889      0.945      0.762
-          Wasser-Water        126         91      0.877      0.868       0.92       0.69
-
----
-
 ## 🧪 Demo - Live Detection
 
 > A prototype script is provided to test the model on custom input images. Please replace the model path in the script with the path to your best.pt. Try placing a product in front of a camera and running:
