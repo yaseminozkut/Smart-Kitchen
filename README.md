@@ -61,7 +61,7 @@ Training command:
 - Worst performance on category milk.
 
 ## 🧪 Demo - Live Detection
-
+Demo Video can be found [here](https://drive.google.com/file/d/18QQ4yGtweis7_0Gm4agsRYPkUsXxOvCI/view?usp=sharing)
 > A prototype script is provided to test the model on custom input images. Please replace the model path in the script with the path to your best.pt. Try placing a product in front of a camera and running:
 ```bash
 python main.py
